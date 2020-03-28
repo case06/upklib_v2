@@ -1,0 +1,76 @@
+
+# Open know-how manifest
+# according to The Open Know-How Manifest Specification Version 1.0
+# for more info, see http://openknowhow.org/
+
+# The content of this manifest file is licensed under a Creative Commons Attribution 4.0 International License. 
+# Licenses for modification and distribution of the hardware, documentation, source-code, etc are stated separately.
+
+# Remove any fields that are not used. Comments (beginning with '#') may also be removed.
+
+# Manifest metadata
+
+date-created: 2013-01-01            # YYYY-MM-DD   
+
+manifest-author:
+  name: Oliver Schlüter                            # required | text
+  affiliation: OpenSourceEcology Germany e.V.                     # text
+  email: case06@opensourceecology.de                           # email address
+
+manifest-language: EN
+
+documentation-language: EN
+
+documentation-home: https://wiki.opensourceecology.de/Upklib
+
+# Properties
+
+title: Uni-Pro-Kit                             # required | text | A title to identify the thing
+
+description: |                             # required | paragraph
+  Universal Prototyping Kit TODO
+
+intended-use: |                            # recommended | Paragraph
+  TODO
+
+keywords:                                  # At least one keyword is recommended | text array 
+  - Uni-Pro-Kit
+  - prototyping
+
+project-link: https://wiki.opensourceecology.de/Universal_Prototyping_Kit                      # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
+
+health-safety-notice: |                    # paragraph
+  TODO
+
+contact:
+  name: Oliver Schlüter
+  affiliation: OpenSourceEcology Germany e.V. 
+  email: case06@opensourceecology.de 
+
+contributors:
+  - name: Oliver Schlüter
+    affiliation: OpenSourceEcology Germany e.V. 
+  - name: Timm Wille 
+    affiliation: OSEG
+
+image: https://wiki.opensourceecology.de/images/1/12/Unipro-logo.png                             # recommended | absolute or relative path
+
+version: 2.02                           # text
+
+development-stage: TODO                 # text
+
+made: true                         # boolean - true or false
+
+made-independently: false           # boolean - true or false
+
+## License 
+
+license:                                   # At least one license is required | The format should be an SPDX identifier. See https://spdx.org/licenses/hardware: CC-BY-SA 4.0 # recommended | The license under which the hardware is released
+  hardware: CC-BY-SA 4.0                        # recommended | The license under which the documentation is released
+  documentation: CC-BY-SA 4.0                   # recommended | The license under which the documentation is released
+  software: CC-BY-SA 4.0                        # recommended where software is used | The license under which the software is released
+
+licensor: 
+  name: Oliver Schlüter                            # required | text
+  affiliation: OpenSourceEcology Germany e.V.                     # text
+  email: case06@opensourceecology.de                           # email address
