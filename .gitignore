@@ -3,3 +3,6 @@
 *.Fcstd1
 *.FCStd1
 *.FCSTD1
+
+# 3D printer instructions (hardware specific)
+*.gcode
