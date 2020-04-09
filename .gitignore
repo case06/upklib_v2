@@ -1,2 +1,8 @@
-# FreeCAD backup files (*.fcstd1) 
-*.[fF][cC][sS][tT][dD]1
+# FreeCAD backup files
+*.fcstd1
+*.Fcstd1
+*.FCStd1
+*.FCSTD1
+
+# 3D printer instructions (hardware specific)
+*.gcode
