@@ -6,3 +6,24 @@
 
 # 3D printer instructions (hardware specific)
 *.gcode
+
+
+# Temporary libreoffice-files
+.\~lock*
+.\~lock*\#
+
+
+# Backs for older files
+doc/bom_src/backs/*
+doc/bom_src/backs
+bom_src/backs
+backs
+backs/
+
+
+# Under Development
+devel
+devel/
+
+
+
