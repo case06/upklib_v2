@@ -22,7 +22,7 @@ for i in sizes:
 	# - Erstellung einer 2D-Masz-Zeichnung
 	#*********************************************************
 	partlen = i
-	partsize = partlen / 20
+	partsize = int(partlen / 20)
 
 	# Rohwinkel
 	myrawblock = Part.makeBox(20,partsize*20,20)
@@ -35,12 +35,12 @@ for i in sizes:
 	for n in range(partsize):
 		# Erzeuge Bohrloch1
 		# mycuthole = Part.makeCylinder(2.5,20, Base.Vector(10,((n+1)*20)-10,-8))
-              mycuthole = Part.makeCylinder(3.0,20, Base.Vector(10,((n+1)*20)-10,-8))
+              mycuthole = Part.makeCylinder(3.1,20, Base.Vector(10,((n+1)*20)-10,-8))
               myangle = myangle.cut(mycuthole)
               angleobj.Shape = myangle
 		# Erzeuge Bohrloch2
 		# mycuthole = Part.makeCylinder(2.5,20, Base.Vector(0,0,0))
-              mycuthole = Part.makeCylinder(3.0,20, Base.Vector(0,0,0))
+              mycuthole = Part.makeCylinder(3.1,20, Base.Vector(0,0,0))
               mycuthole.rotate(Base.Vector(0,0,0),Base.Vector(0,1,0),90)
               mycuthole.translate(Base.Vector(-10,((n+1)*20)-10,10))
               myangle = myangle.cut(mycuthole)
